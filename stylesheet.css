@@ -1,0 +1,131 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+.header {
+  color:#fff;
+  background-color:#26d0c9;
+  height:90px;
+}
+
+.header-logo {
+  font-size:36px;
+  padding:20px 40px;
+  float:left;
+}
+
+.header-list {
+  float:left;
+}
+
+.header-list li{
+  float:left;
+  padding:33px 20px;
+}
+
+.main {
+  padding:100px 80px;
+}
+
+.main h1 {
+  font-size:140px;
+}
+
+.main h2 {
+  font-size:60px;
+}
+
+.main-title span {
+  color:#ff4a4a;
+}
+
+.main-content{
+  margin-top:100px;
+  height:500px;
+}
+
+
+.main-content h3 {
+  border-bottom:2px solid #dee7ec;
+  font-size:28px;
+  padding-bottom:15px;
+  margin-bottom:50px;
+}
+
+.programing-content {
+  float:left;
+  margin-right:40px;
+}
+
+.programing-content p {
+  font-size:24px;
+  margin-top:30px;
+}
+
+.inquiry-form {
+  margin-top:100px;
+
+}
+
+.inquiry-form h3 {
+  padding-bottom:15px;
+  border-bottom:2px solid #dee7ec;
+  margin-bottom:50px;
+  font-size:28px;
+
+}
+.inquiry-form {
+  width:400px;
+}
+
+input, textarea{
+  width:400px;
+  padding:20px;
+  margin-bottom:30px;
+  margin-top:10px;
+  border:1px solid #dee7ec;
+  font-size:18px;
+}
+
+.inquiry-submit {
+  color:#889eab;
+  background-color:#dee7ec;
+}
+
+.footer {
+
+  height:120px;
+  background-color:#2f5167;
+  color:#fff;
+  padding:40px;
+}
+
+.footer-title {
+
+  font-size:32px;
+  float:left;
+}
+
+.footer ul {
+
+  float:right;
+
+}
+
+.footer li {
+  padding-bottom:20px;
+}
